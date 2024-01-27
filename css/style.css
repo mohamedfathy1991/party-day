@@ -1,0 +1,117 @@
+*{
+      box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+.home{
+      min-height: 100vh;
+      
+      
+      /* background-image: radial-gradient('../img/events-heavenly-header.jpg',red); */
+      background-image:linear-gradient(rgb(255, 0, 0,.5),hsl(0, 100%, 50%,.5) ),url('../img/events-heavenly-header.jpg');
+background-position: center center;
+background-size: cover;
+
+
+
+}
+.home h1{
+      padding-top: 15%;
+      font-size: 60px;
+}
+.dashboard-contain{
+      top: 0;
+      left: -200px;
+}
+.dashboard{
+      background-color: black;
+      height: 100vh;
+      width: 200px;
+     
+}
+.dashboard ul li {
+      list-style: none;
+      margin-top: 20px;
+      font-size: 30px;
+      text-align: left;
+      cursor: pointer;
+     
+}
+.dashboard ul li a:hover {
+      color: red;
+}
+.close{
+      text-align: right;
+      padding: 20px 20px;
+}
+#closeddashboard{
+      cursor: pointer;
+}
+
+.contents{
+      margin-top: 100px;
+}
+.singerone ,.singertwo {
+     
+      width: 50%;
+      margin: auto;
+
+}
+.singerone h1,.singertwo h1{
+      text-align: center;
+      background-color: rgb(255, 0, 0,.5);
+      margin-bottom: 0;
+      color: white; padding: 10px 0;
+    cursor: pointer;
+      
+}
+.timer{
+      
+      background-image:linear-gradient(rgb(255, 0, 0,.5),hsl(0, 100%, 50%,.5) ),url('../img/timer.jpg');
+
+      background-position: center center;
+background-size: cover;
+
+
+}
+.singertwo-content ,.singerthree-content{
+      display: none;
+}
+
+.day{
+      border: 2px solid white;
+}
+
+.socila-icons p{
+      border: 1px solid;
+      margin-left: 10px;
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+}
+
+.socila-icons p:hover{
+      cursor: pointer;
+      background-color: red;
+}
+
+
+
+
+
+
+
+
+
+#about{
+      height: 500px;
+      background-color: red;
+}
+.textarea{
+      height: 200px;
+}
